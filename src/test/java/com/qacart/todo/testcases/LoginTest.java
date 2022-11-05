@@ -4,6 +4,7 @@ import com.qacart.todo.base.BaseTest;
 import com.qacart.todo.factory.DriverFactory;
 import com.qacart.todo.pages.LoginPage;
 import com.qacart.todo.pages.TodoPage;
+import com.qacart.todo.utils.ConfigUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,7 +22,7 @@ public class LoginTest extends BaseTest {
         //Builder Pattern.
         boolean displayed=
                 loginPage.load()
-                .login("ziadelsoudy@gmail.com","123456789")
+                .login(ConfigUtils.GetInstance().GetEmail(), ConfigUtils.GetInstance().GetPassword())
                 .isWelcomeDisplayed();
         Assert.assertTrue(displayed);
     }
