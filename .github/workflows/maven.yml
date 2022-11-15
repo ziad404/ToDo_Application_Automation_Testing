@@ -27,8 +27,8 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: browser-actions/setup-chrome@latest
-      run:  mvn clean test
+    - uses: browser-actions/setup-chrome@latest
+    - run:  mvn clean test
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
