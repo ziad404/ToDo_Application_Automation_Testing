@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8086963e-fa0c-45df-982e-4c225bb8fed4" name="Changes" comment="Adding config,api,utils packages">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8086963e-fa0c-45df-982e-4c225bb8fed4" name="Changes" comment="create main.yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667677465907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create main.yml">
+      <created>1668472461162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668472461162</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +184,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding config,api,utils packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding config,api,utils packages" />
+    <MESSAGE value="create main.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="create main.yml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
