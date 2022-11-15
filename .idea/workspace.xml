@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8086963e-fa0c-45df-982e-4c225bb8fed4" name="Changes" comment="Adding config,api,utils packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/api/RegisterApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/api/RegisterApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/NewToDoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/NewToDoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/TodoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/TodoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/TodoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/TodoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/ConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/ConfigUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/CookieUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
