@@ -1,5 +1,7 @@
 package com.qacart.todo.pages;
 
+import com.qacart.todo.utils.ConfigUtils;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -21,11 +23,16 @@ public class NewToDoPage {
     private WebElement submittaskbtn;
     @FindBy(css ="[data-testid=\"todo-item\"]")
     private WebElement actualaddedtext;
+    @Step
     public  TodoPage addNewToDo(String Todoname){
         addbtn.click();
         addnewtodo.sendKeys(Todoname);
         submittaskbtn.click();
         return new  TodoPage(driver);
+    }
+    public TodoPage load(){
+        driver.get(ConfigUtils.GetInstance().GetBaseUrl()+"/todo");
+        return new TodoPage(driver);
     }
     public String getAddedText(){
          return actualaddedtext.getText();

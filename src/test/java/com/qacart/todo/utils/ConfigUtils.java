@@ -9,7 +9,7 @@ public class ConfigUtils {
      private Properties properties;
      private static ConfigUtils configUtils;
      public ConfigUtils(){
-         String env=System.getProperty("env","production");
+         String env=System.getProperty("env","PRODUCTION");
          switch (env){
              case ("PRODUCTION"):
                  properties=PropertiesUtils.LoadProperties("src/test/java/com/qacart/todo/config/Production.properties");

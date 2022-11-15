@@ -36,7 +36,7 @@ public class RegisterApi {
                           .body(user)
                           .log().all()
                     .when()
-                          .post("/signup")
+                          .post("https://qacart-todo.herokuapp.com/api/v1/users/register")
                     .then()
                           .log().all()
                           .extract().response();

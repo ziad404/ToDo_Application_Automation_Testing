@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8086963e-fa0c-45df-982e-4c225bb8fed4" name="Changes" comment="Adding config,api,utils packages">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/api/RegisterApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/api/RegisterApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/api/RegisterApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/NewToDoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/NewToDoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/TodoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/TodoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/TodoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/TodoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/ConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/ConfigUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/CookieUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +58,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Dummy">
-    <configuration name="Dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.Dummy" />
+  <component name="RunManager" selected="TestNG.LoginTest.ShouldBeAbleToLoginWithEmailAndPassword">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Todo_project_testing" />
       <extension name="coverage">
         <pattern>
@@ -58,6 +67,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.qacart.todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +88,23 @@
       <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.LoginTest" />
       <option name="METHOD_NAME" value="ShouldBeAbleToLoginWithEmailAndPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Todo_project_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart.todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.TodoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -118,10 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dummy" />
         <item itemvalue="TestNG.LoginTest.ShouldBeAbleToLoginWithEmailAndPassword" />
+        <item itemvalue="TestNG.TodoTest" />
         <item itemvalue="TestNG.TodoTest.ShouldBeAbleToDeleteToDo" />
         <item itemvalue="TestNG.TodoTest.ShouldBeAbleToAddnewToDo" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
